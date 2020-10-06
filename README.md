@@ -1,5 +1,5 @@
 # vuetify-parser-xlsx-csv
-A simple Vuetify based module that extracts data from **.csv**, **.xlsx**, **.xls** files in the form of a JSON. It uses the [xlsx](https://www.npmjs.com/package/xlsx) module to parse the file. Be sure to check it out
+A simple Vuetify based module that extracts data from **.csv**, **.xlsx**, **.xls** files in the form of a JSON. It uses the [xlsx](https://www.npmjs.com/package/xlsx) module to parse the file. Be sure to check it out.
 
 ## Installation
 `npm install vuetify-parser-xlsx-csv`
@@ -21,7 +21,7 @@ Here's where the data looks like.
 | Leon | Kennedy | leonkennedy@example.com | 123 879 4560 |
 
 ### Code
-And here's the code
+And here's the code.
 ```html
 <template>
   <v-app>
@@ -114,7 +114,7 @@ export default {
 
 ```
 ### JSON Format
-The JSON is stored in results, and each row of the file is a separate element
+The JSON is stored in results, and each row of the file is a separate element.
 ```javascript
 [
   {
