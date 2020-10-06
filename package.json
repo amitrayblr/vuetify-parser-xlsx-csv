@@ -1,7 +1,7 @@
 {
   "name": "vuetify-xlsx-csv-parser",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "A simple Vuetify based xlsx, xls, csv parser",
   "main": "dist/vuetify-xlsx-csv-parser.ssr.js",
   "browser": "dist/vuetify-xlsx-csv-parser.esm.js",
   "module": "dist/vuetify-xlsx-csv-parser.esm.js",
@@ -18,6 +18,8 @@
     "build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
   },
   "dependencies": {
+    "sass-loader": "^10.0.2",
+    "vuetify": "^2.3.12",
     "xlsx": "^0.16.7"
   },
   "devDependencies": {

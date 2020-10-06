@@ -52,7 +52,7 @@ const baseConfig = {
 const external = [
   // list external dependencies, exactly the way it is written in the import statement.
   // eg. 'jquery'
-  'vue', 'xlsx'
+  'vue', 'xlsx', 'vuetify', 'vuetify/lib'
 ];
 
 // UMD/IIFE shared settings: output.globals
@@ -62,6 +62,8 @@ const globals = {
   // eg. jquery: '$'
   vue: 'Vue', 
   xlsx: 'xlsx',
+  vuetify: ' Vuetify',
+  'vuetify/lib': 'Vuetify'
 };
 
 // Customize configs for individual targets

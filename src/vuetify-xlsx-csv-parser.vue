@@ -91,9 +91,36 @@
 <script>
 
 import XLSX from 'xlsx'
+import { 
+  VFileInput,
+  VDialog,
+  VCard,
+  VToolbar,
+  VToolbarTitle,
+  VSpacer,
+  VBtn,
+  VIcon,
+  VSimpleTable,
+  VSelect,
+  VCardActions,
+} from 'vuetify/lib'
+
 
 export default {
   name: 'UploadSpreadsheet',
+  components: {
+    VFileInput,
+    VDialog,
+    VCard,
+    VToolbar,
+    VToolbarTitle,
+    VSpacer,
+    VBtn,
+    VIcon,
+    VSimpleTable,
+    VSelect,
+    VCardActions,
+  },
   props: {
     columns: {
       type: Array,
