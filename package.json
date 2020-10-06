@@ -3,6 +3,11 @@
   "version": "1.0.2",
   "description": "A simple Vuetify based xlsx, xls, csv parser",
   "main": "dist/vuetify-xlsx-csv-parser.ssr.js",
+  "homepage": "https://github.com/amitrayblr/vuetify-parser-xlsx-csv/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amitrayblr/vuetify-parser-xlsx-csv"
+  },
   "browser": "dist/vuetify-xlsx-csv-parser.esm.js",
   "module": "dist/vuetify-xlsx-csv-parser.esm.js",
   "unpkg": "dist/vuetify-xlsx-csv-parser.min.js",
